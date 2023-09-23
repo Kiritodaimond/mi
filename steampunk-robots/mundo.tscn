@@ -1,0 +1,21 @@
+[gd_scene load_steps=2 format=3 uid="uid://1r52oxss5pl1"]
+
+[ext_resource type="Texture2D" uid="uid://t2aq7mpkfsd2" path="res://Pepper publish..png" id="1_ludfs"]
+
+[node name="mundo" type="Node2D"]
+
+[node name="bluelabe" type="Label" parent="."]
+offset_left = 170.0
+offset_top = 108.0
+offset_right = 392.0
+offset_bottom = 134.0
+text = "hola multiuniverzo"
+
+[node name="TileMap" type="TileMap" parent="."]
+format = 2
+
+[node name="Sprite2D" type="Sprite2D" parent="TileMap"]
+
+[node name="PepperPublish_" type="Sprite2D" parent="."]
+position = Vector2(167, 251)
+texture = ExtResource("1_ludfs")
